@@ -21,6 +21,12 @@ You can also enable all the quarantined (flagged) sentences to be included into 
 
     python openkorpos.py ningen --flagged base
 
+Using
+-----
+
+The build artifacts get dropped into the `build` directory.
+Each file is a [JSON lines](https://jsonlines.org/) formatted file, encoded in UTF-8.
+
 Citing
 ------
 
